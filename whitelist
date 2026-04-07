@@ -1,0 +1,24 @@
+# profile-title: 🏳️ БЕЛЫЕ СПИСКИ 🏳️ FLUXNET | Для телефона рекомендовано
+# profile-update-interval: 5
+# Date/Time: 2026-04-07 / 17:35 (Moscow)
+# Количество: 40
+# For more info and VPN - visit: t/me/fluxnett_bot
+
+vless://00400444-4440-4440-8440-044444400400@51.250.99.92:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=Kt_hjy94lr2-zyQhDhGxtPOOrhSmlxOOWcII0X0u-wY&sid=aabbccdd&sni=browser.yandex.com&alpn=h2#🇨🇿 Czechia | 🌐 FluxNet
+vless://82b5b465-3307-4a25-acef-abd1649bbedf@fr1.samovargate.com:443?security=reality&encryption=none&pbk=gwuAehnMX6e-n1fxIenfjx43j3qXXi7Cb4wfnW5VyBQ&type=tcp&flow=xtls-rprx-vision&sni=www.microsoft.com&fp=chrome&sid=f04729f65b9ea261#🇫🇷 France | 🌐 |  FluxNet
+vless://2e2abd1f-4b43-420a-a6a9-37b6e8fef206@178.72.171.212:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=randomized&sni=api-maps.yandex.ru&pbk=7TvkMzoB3gEZy-5HfL6-M_AT_qWVgyeoiggDb2Qg5hE&spx=%2F#🇩🇪 Germany 🌐 FluxNet
+vless://2e2abd1f-4b43-420a-a6a9-37b6e8fef206@178.72.171.212:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=randomized&sni=eh.vk.com&pbk=P58JPgSU0wIgMZRT7KMiW2gQEWWJHExCLd7f6miNbGA&spx=%2F#🇩🇪 Germany | 🌐 | [IPv6]  FluxNet
+vless://2e2abd1f-4b43-420a-a6a9-37b6e8fef206@178.72.171.212:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=randomized&sni=pimg.mycdn.me&pbk=jz0B2jWDq_AJ4Bf2B1LYllYvWevT2KaVxYIQl_92TAg&spx=%2F#🇩🇪 Germany | 🌐 |  FluxNet
+vless://2e2abd1f-4b43-420a-a6a9-37b6e8fef206@90.156.214.24:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=randomized&sni=api-maps.yandex.ru&pbk=7cLaPUUKcWjTMasCAp_kMwWgqi0_tvczCjf4D8nSAW8&spx=%2F#🇩🇪 Germany  VK FluxNet
+vless://2e2abd1f-4b43-420a-a6a9-37b6e8fef206@90.156.214.24:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=randomized&sni=pimg.mycdn.me&pbk=huWdAp17AaYx7KNwH2aIkVEqAaPBzSAMfsPWIqx-6jg&spx=%2F#🇩🇪 Germany VK FluxNet
+vless://bdaddcff-cc26-43e4-8c88-3e67ee6ee21f@217.13.104.213:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&sni=sun6-22.userapi.com&pbk=fhMqHujqxaRsM4oM5MOectW90_nHWj7AEftfbO3Ht0Q#🇭🇺 Hungary  FluxNet
+vless://18e48126-5325-4618-a3f5-fda84003deb4@5.188.115.230:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=random&sni=ads.x5.ru&pbk=kKiat1UsRVMj7F5APS8MMMDbwFE6fUI5maS3oMsrTgI&sid=27e53bbcab7593d7&spx=%2F#🇵🇱 Poland FluxNet
+vless://99e2fd5e-f5b2-47f9-be5a-eb38daa4e670@212.233.97.35:5443?encryption=none&flow=&fp=chrome&packetEncoding=xudp&pbk=wXpc4aufCrdxZ2_aoh6Zt0aLWLioMN2Zi0jtKdonMW4&security=reality&sid=b027c9244d2a&sni=max.ru&type=tcp#🇵🇱 Poland  VK FluxNet
+vless://b91ca476-26f1-4dc3-a5e9-57cf457f3499@185.242.16.16:443?encryption=none&type=ws&security=tls&path=%2FgetServiceStatus%2F&host=mullsite.applepie-recipe.ru&sni=mullsite.applepie-recipe.ru#🇸🇪 Sweden  FluxNet
+vless://fa7e141c-3201-4064-8407-14e08a335902@185.242.17.17:443?encryption=none&type=ws&security=tls&path=%2FgetServiceStatus%2F&host=mullsite.applepie-recipe.ru&sni=mullsite.applepie-recipe.ru#🇸🇪 Sweden  FluxNet
+vless://a18a8faa-d836-4111-85ab-ad4c5040fafa@212.233.97.128:5443/?type=tcp&encryption=none&flow=&sni=ads.x5.ru&fp=chrome&security=reality&pbk=SskAaq34j0FCgo85shlAWsupaS7DfB_gfaQEqXprqWo&sid=0e5dcb&packetEncoding=xudp#🇳🇱 Netherlands  VK FluxNet
+vless://e11ca047-3e50-469b-aa1a-beb9be0256b2@89.208.228.76:8443?encryption=none&type=grpc&security=reality&mode=gun&serviceName=UpdateService&fp=chrome&sni=sso.passport.yandex.ru&pbk=oWi1Dm7iMdTGeh-BI8rwKcnIaqeG2zF874NrSpPEPlI&sid=77cf23bd7f73c97a#🇷🇺 Russia VK FluxNet
+vless://e11ca047-3e50-469b-aa1a-beb9be0256b2@95.163.213.194:7443?encryption=none&type=grpc&security=reality&mode=gun&serviceName=UpdateService&fp=qq&sni=ads.x5.ru&pbk=8hdXyv-YBQIaA2xgOfT2nhfna5y5s19qbZD-SpMZ6hg&sid=dd700a46e27751d1#🇷🇺 Russia VK FluxNet
+vless://56022eef-4ade-4240-b0cc-eb006797e7ac@94.126.207.245:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=V32osv0u9T3QItvyk4UgK-mjJuXkXLn4u_3pbk8eNgs&sid=9339&sni=api.vk.com#🇷🇺 Russia FluxNet
+vless://88af3d08-d5e1-4148-89a7-5201146c10a5@94.139.251.109:7443?security=reality&encryption=none&pbk=5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=chat.deepseek.com&sid=d82fb387#🇷🇺 Russia FluxNet
+vless://a96f18f0-4a56-4c4f-be6e-434835f5523c@51.250.42.3:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=e6QVzqAw4kvQHxdu2pFsLnadziIWm9DjOo2rul_NgAk&sid=8ac77e6b777376f8&sni=ads.x5.ru#🇷🇺 Russia FluxNet
