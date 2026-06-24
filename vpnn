@@ -4,9 +4,15 @@
 #support-url: https://t.me/fluxnett_bot
 #profile-web-page-url: https://t.me/fluxnettg
 
-vless://e6269ca3-7ec4-4ff8-997c-70a77b27b10d@slarktop.viange.eu:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=rKk5BU7N6Bm6Sgm7uHu6iIpl4U5fZViRMdanSu9dBlU&sni=slarktop.viange.eu&sid=6ba85179e30d#🇺🇸 США
-vless://e6269ca3-7ec4-4ff8-997c-70a77b27b10d@slark.guseff.su:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=v82LBurkDmZ0WQLtzr0a5dohCFfUOzkA6M14W1GDbnc&sni=slark.guseff.su&sid=6ba85179e30d#🇩🇪 Германия 1
-vless://e6269ca3-7ec4-4ff8-997c-70a77b27b10d@slarktop.aktion.cl:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=v82LBurkDmZ0WQLtzr0a5dohCFfUOzkA6M14W1GDbnc&sni=slarktop.aktion.cl&sid=6ba85179e30d#🇩🇪 Германия 24 на 7
-vless://e6269ca3-7ec4-4ff8-997c-70a77b27b10d@slark.sos.al:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=v82LBurkDmZ0WQLtzr0a5dohCFfUOzkA6M14W1GDbnc&sni=slark.sos.al&sid=6ba85179e30d#🇩🇪 Германия | 2
-vless://e6269ca3-7ec4-4ff8-997c-70a77b27b10d@slarkgame.n43.pw:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=v82LBurkDmZ0WQLtzr0a5dohCFfUOzkA6M14W1GDbnc&sni=slarkgame.n43.pw&sid=6ba85179e30d#🇫🇮 Финляндия | Для игр
-vless://e6269ca3-7ec4-4ff8-997c-70a77b27b10d@slark.root.sx:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=v82LBurkDmZ0WQLtzr0a5dohCFfUOzkA6M14W1GDbnc&sni=slark.root.sx&sid=6ba85179e30d#🇳🇱 Нидерланды
+vless://f47b3c2e-8a91-4d5e-b6f0-9c1d2e3a4b5c@yandex-cdn3.vpnbypass.click:443?type=xhttp&security=tls&fp=ios&alpn=h2,http/1.1&sni=yandex-cdn3.vpnbypass.click&path=%2Fpl&mode=packet-up#🇪🇺 Самый быстрый | PL
+vless://f47b3c2e-8a91-4d5e-b6f0-9c1d2e3a4b5c@yandex-cdn3.vpnbypass.click:443?type=xhttp&security=tls&fp=ios&alpn=h2,http/1.1&sni=yandex-cdn3.vpnbypass.click&path=%2Fde&mode=packet-up#🇪🇺 Самый быстрый | DE
+vless://f47b3c2e-8a91-4d5e-b6f0-9c1d2e3a4b5c@yandex-cdn3.vpnbypass.click:443?type=xhttp&security=tls&fp=ios&alpn=h2,http/1.1&sni=yandex-cdn3.vpnbypass.click&path=%2Fnl&mode=packet-up#🇪🇺 Самый быстрый | NL
+vless://fedd6ced-7ec7-43ea-871d-0dfb8607ae63@ru40.whost-solutions.ru:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k&sni=ru21.whost-solutions.ru#Лучшая маршрутизация | ru40
+vless://fedd6ced-7ec7-43ea-871d-0dfb8607ae63@185.16.214.157:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k&sni=ru21.whost-solutions.ru#Лучшая маршрутизация | 185.16
+vless://fedd6ced-7ec7-43ea-871d-0dfb8607ae63@ru50.whost-solutions.ru:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k&sni=ru21.whost-solutions.ru#Лучшая маршрутизация | ru50
+vless://fedd6ced-7ec7-43ea-871d-0dfb8607ae63@ru53.whost-solutions.ru:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k&sni=ru21.whost-solutions.ru#Лучшая маршрутизация | ru53
+vless://fedd6ced-7ec7-43ea-871d-0dfb8607ae63@ru54.whost-solutions.ru:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k&sni=ru21.whost-solutions.ru#Лучшая маршрутизация | ru54
+vless://fedd6ced-7ec7-43ea-871d-0dfb8607ae63@ru55.whost-solutions.ru:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k&sni=ru21.whost-solutions.ru#Лучшая маршрутизация | ru55
+vless://fedd6ced-7ec7-43ea-871d-0dfb8607ae63@ru56.whost-solutions.ru:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k&sni=ru21.whost-solutions.ru#Лучшая маршрутизация | ru56
+vless://1a96000b-a14d-405a-b5b1-f14b9366a279@wifi1-grpc.realityanti-vpn.xyz:603?type=grpc&security=reality&fp=edge&pbk=WEoZRaQvvs9EYMij8-CzaMx1687u_yuk39FUMTMXACo&sni=www.amd.com&sid=0da0e140#WiFi впн
+vless://09f2c8f6-49b2-4f52-95f8-7d0603511e66@gateru.janusgate.org:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=qq&pbk=Zkjmoy79UuCGCS5_4fMfhv0lXDvgBjUTT7jCdQoWdQQ&sni=gateru.janusgate.org&sid=3f9cc886565a08c9#🇩🇪 Германия LTE
