@@ -1,0 +1,2282 @@
+{
+"dns": {
+"queryStrategy": "UseIPv4",
+"servers": [
+"1.1.1.1",
+"1.0.0.1"
+ ]
+},
+"inbounds": [
+{
+"listen": "127.0.0.1",
+"port": 10808,
+"protocol": "socks",
+"settings": {
+"auth": "noauth",
+"udp": true
+},
+"sniffing": {
+"destOverride": [
+"http",
+"tls",
+"quic"
+ ],
+"enabled": true,
+"routeOnly": false
+},
+"tag": "socks"
+},
+{
+"listen": "127.0.0.1",
+"port": 10809,
+"protocol": "http",
+"settings": {
+"allowTransparent": false
+},
+"sniffing": {
+"destOverride": [
+"http",
+"tls",
+"quic"
+ ],
+"enabled": true,
+"routeOnly": false
+},
+"tag": "http"
+}
+],
+"outbounds": [
+{
+"protocol": "vless",
+"settings": {
+"vnext": [
+{
+"address": "87.120.108.150",
+"port": 443,
+"users": [
+{
+"id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+"encryption": "none"
+}
+ ]
+}
+]
+},
+"streamSettings": {
+"network": "grpc",
+"security": "reality",
+"realitySettings": {
+"fingerprint": "firefox",
+"publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+"serverName": "www.amd.com",
+"shortId": "635a76c25a4b1820"
+},
+"grpcSettings": {
+"serviceName": "grpc-api-v2",
+"multiMode": true
+}
+},
+"tag": "proxy-1"
+},
+{
+"protocol": "vless",
+"settings": {
+"vnext": [
+{
+"address": "2.26.254.62",
+"port": 443,
+"users": [
+{
+"id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+"encryption": "none"
+}
+ ]
+}
+]
+},
+"streamSettings": {
+"network": "grpc",
+"security": "reality",
+"realitySettings": {
+"fingerprint": "firefox",
+"publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+"serverName": "www.amd.com",
+"shortId": "635a76c25a4b1820"
+},
+"grpcSettings": {
+"serviceName": "grpc-api-v2",
+"multiMode": true
+}
+},
+"tag": "proxy-2"
+},
+{
+"protocol": "vless",
+"settings": {
+"vnext": [
+{
+"address": "2.26.224.98",
+"port": 443,
+"users": [
+{
+"id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+"encryption": "none"
+}
+ ]
+}
+]
+},
+"streamSettings": {
+"network": "grpc",
+"security": "reality",
+"realitySettings": {
+"fingerprint": "firefox",
+"publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+"serverName": "www.amd.com",
+"shortId": "635a76c25a4b1820"
+},
+"grpcSettings": {
+"serviceName": "grpc-api-v2",
+"multiMode": true
+}
+},
+"tag": "proxy-3"
+},
+{
+"protocol": "vless",
+"settings": {
+"vnext": [
+{
+"address": "2.26.224.100",
+"port": 443,
+"users": [
+{
+"id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+"encryption": "none"
+}
+ ]
+}
+]
+},
+"streamSettings": {
+"network": "grpc",
+"security": "reality",
+"realitySettings": {
+"fingerprint": "firefox",
+"publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+"serverName": "www.amd.com",
+"shortId": "635a76c25a4b1820"
+},
+"grpcSettings": {
+"serviceName": "grpc-api-v2",
+"multiMode": true
+}
+},
+"tag": "proxy-4"
+},
+{
+"protocol": "vless",
+"settings": {
+"vnext": [
+{
+"address": "81.90.21.59",
+"port": 443,
+"users": [
+{
+"id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+"encryption": "none"
+}
+ ]
+}
+]
+},
+"streamSettings": {
+"network": "grpc",
+"security": "reality",
+"realitySettings": {
+"fingerprint": "firefox",
+"publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+"serverName": "www.amd.com",
+"shortId": "635a76c25a4b1820"
+},
+"grpcSettings": {
+"serviceName": "grpc-api-v2",
+"multiMode": true
+}
+},
+"tag": "proxy-5"
+},
+{
+"protocol": "vless",
+"settings": {
+"vnext": [
+{
+"address": "81.90.21.67",
+"port": 443,
+"users": [
+{
+"id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+"encryption": "none"
+}
+ ]
+}
+]
+},
+"streamSettings": {
+"network": "grpc",
+"security": "reality",
+"realitySettings": {
+"fingerprint": "firefox",
+"publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+"serverName": "www.amd.com",
+"shortId": "635a76c25a4b1820"
+},
+"grpcSettings": {
+"serviceName": "grpc-api-v2",
+"multiMode": true
+}
+},
+"tag": "proxy-6"
+},
+{
+"protocol": "vless",
+"settings": {
+"vnext": [
+{
+"address": "45.128.235.44",
+"port": 443,
+"users": [
+{
+"id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+"encryption": "none"
+}
+ ]
+}
+]
+},
+"streamSettings": {
+"network": "grpc",
+"security": "reality",
+"realitySettings": {
+"fingerprint": "firefox",
+"publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+"serverName": "www.amd.com",
+"shortId": "635a76c25a4b1820"
+},
+"grpcSettings": {
+"serviceName": "grpc-api-v2",
+"multiMode": true
+}
+},
+"tag": "proxy-7"
+},
+{
+"protocol": "vless",
+"settings": {
+"vnext": [
+{
+"address": "150.241.83.126",
+"port": 443,
+"users": [
+{
+"id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+"encryption": "none"
+}
+ ]
+}
+]
+},
+"streamSettings": {
+"network": "grpc",
+"security": "reality",
+"realitySettings": {
+"fingerprint": "firefox",
+"publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+"serverName": "www.amd.com",
+"shortId": "635a76c25a4b1820"
+},
+"grpcSettings": {
+"serviceName": "grpc-api-v2",
+"multiMode": true
+}
+},
+"tag": "proxy-8"
+},
+{
+"protocol": "vless",
+"settings": {
+"vnext": [
+{
+"address": "31.76.103.109",
+"port": 443,
+"users": [
+{
+"id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+"encryption": "none"
+}
+ ]
+}
+]
+},
+"streamSettings": {
+"network": "grpc",
+"security": "reality",
+"realitySettings": {
+"fingerprint": "firefox",
+"publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+"serverName": "www.amd.com",
+"shortId": "635a76c25a4b1820"
+},
+"grpcSettings": {
+"serviceName": "grpc-api-v2",
+"multiMode": true
+}
+},
+"tag": "proxy-9"
+},
+{
+"protocol": "vless",
+"settings": {
+"vnext": [
+{
+"address": "81.90.21.78",
+"port": 443,
+"users": [
+{
+"id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+"encryption": "none"
+}
+ ]
+}
+]
+},
+"streamSettings": {
+"network": "grpc",
+"security": "reality",
+"realitySettings": {
+"fingerprint": "firefox",
+"publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+"serverName": "www.amd.com",
+"shortId": "635a76c25a4b1820"
+},
+"grpcSettings": {
+"serviceName": "grpc-api-v2",
+"multiMode": true
+}
+},
+"tag": "proxy-10"
+},
+{
+"protocol": "vless",
+"settings": {
+"vnext": [
+{
+"address": "31.76.103.111",
+"port": 443,
+"users": [
+{
+"id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+"encryption": "none"
+}
+ ]
+}
+]
+},
+"streamSettings": {
+"network": "grpc",
+"security": "reality",
+"realitySettings": {
+"fingerprint": "firefox",
+"publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+"serverName": "www.amd.com",
+"shortId": "635a76c25a4b1820"
+},
+"grpcSettings": {
+"serviceName": "grpc-api-v2",
+"multiMode": true
+}
+},
+"tag": "proxy-11"
+},
+{
+"protocol": "vless",
+"settings": {
+"vnext": [
+{
+"address": "144.31.219.128",
+"port": 443,
+"users": [
+{
+"id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+"encryption": "none"
+}
+ ]
+}
+]
+},
+"streamSettings": {
+"network": "grpc",
+"security": "reality",
+"realitySettings": {
+"fingerprint": "firefox",
+"publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+"serverName": "www.amd.com",
+"shortId": "635a76c25a4b1820"
+},
+"grpcSettings": {
+"serviceName": "grpc-api-v2",
+"multiMode": true
+}
+},
+"tag": "proxy-12"
+},
+{
+"protocol": "vless",
+"settings": {
+"vnext": [
+{
+"address": "31.76.55.163",
+"port": 443,
+"users": [
+{
+"id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+"encryption": "none"
+}
+ ]
+}
+]
+},
+"streamSettings": {
+"network": "grpc",
+"security": "reality",
+"realitySettings": {
+"fingerprint": "firefox",
+"publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+"serverName": "www.amd.com",
+"shortId": "635a76c25a4b1820"
+},
+"grpcSettings": {
+"serviceName": "grpc-api-v2",
+"multiMode": true
+}
+},
+"tag": "proxy-13"
+},
+{
+"protocol": "vless",
+"settings": {
+"vnext": [
+{
+"address": "150.241.72.77",
+"port": 443,
+"users": [
+{
+"id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+"encryption": "none"
+}
+ ]
+}
+]
+},
+"streamSettings": {
+"network": "grpc",
+"security": "reality",
+"realitySettings": {
+"fingerprint": "firefox",
+"publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+"serverName": "www.amd.com",
+"shortId": "635a76c25a4b1820"
+},
+"grpcSettings": {
+"serviceName": "grpc-api-v2",
+"multiMode": true
+}
+},
+"tag": "proxy-14"
+},
+{
+"protocol": "vless",
+"settings": {
+"vnext": [
+{
+"address": "193.233.75.131",
+"port": 443,
+"users": [
+{
+"id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+"encryption": "none"
+}
+ ]
+}
+]
+},
+"streamSettings": {
+"network": "grpc",
+"security": "reality",
+"realitySettings": {
+"fingerprint": "firefox",
+"publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+"serverName": "www.amd.com",
+"shortId": "635a76c25a4b1820"
+},
+"grpcSettings": {
+"serviceName": "grpc-api-v2",
+"multiMode": true
+}
+},
+"tag": "proxy-15"
+},
+{
+"protocol": "vless",
+"settings": {
+"vnext": [
+{
+"address": "193.233.75.132",
+"port": 443,
+"users": [
+{
+"id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+"encryption": "none"
+}
+ ]
+}
+]
+},
+"streamSettings": {
+"network": "grpc",
+"security": "reality",
+"realitySettings": {
+"fingerprint": "firefox",
+"publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+"serverName": "www.amd.com",
+"shortId": "635a76c25a4b1820"
+},
+"grpcSettings": {
+"serviceName": "grpc-api-v2",
+"multiMode": true
+}
+},
+"tag": "proxy-16"
+},
+{
+"protocol": "vless",
+"settings": {
+"vnext": [
+{
+"address": "31.56.188.123",
+"port": 443,
+"users": [
+{
+"id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+"encryption": "none"
+}
+ ]
+}
+]
+},
+"streamSettings": {
+"network": "grpc",
+"security": "reality",
+"realitySettings": {
+"fingerprint": "firefox",
+"publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+"serverName": "www.amd.com",
+"shortId": "635a76c25a4b1820"
+},
+"grpcSettings": {
+"serviceName": "grpc-api-v2",
+"multiMode": true
+}
+},
+"tag": "proxy-17"
+},
+{
+"protocol": "vless",
+"settings": {
+"vnext": [
+{
+"address": "94.183.221.175",
+"port": 443,
+"users": [
+{
+"id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+"encryption": "none"
+}
+ ]
+}
+]
+},
+"streamSettings": {
+"network": "grpc",
+"security": "reality",
+"realitySettings": {
+"fingerprint": "firefox",
+"publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+"serverName": "www.amd.com",
+"shortId": "635a76c25a4b1820"
+},
+"grpcSettings": {
+"serviceName": "grpc-api-v2",
+"multiMode": true
+}
+},
+"tag": "proxy-18"
+},
+{
+"protocol": "vless",
+"settings": {
+"vnext": [
+{
+"address": "94.183.221.190",
+"port": 443,
+"users": [
+{
+"id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+"encryption": "none"
+}
+ ]
+}
+]
+},
+"streamSettings": {
+"network": "grpc",
+"security": "reality",
+"realitySettings": {
+"fingerprint": "firefox",
+"publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+"serverName": "www.amd.com",
+"shortId": "635a76c25a4b1820"
+},
+"grpcSettings": {
+"serviceName": "grpc-api-v2",
+"multiMode": true
+}
+},
+"tag": "proxy-19"
+},
+{
+"protocol": "vless",
+"settings": {
+"vnext": [
+{
+"address": "94.183.221.174",
+"port": 443,
+"users": [
+{
+"id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+"encryption": "none"
+}
+ ]
+}
+]
+},
+"streamSettings": {
+"network": "grpc",
+"security": "reality",
+"realitySettings": {
+"fingerprint": "firefox",
+"publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+"serverName": "www.amd.com",
+"shortId": "635a76c25a4b1820"
+},
+"grpcSettings": {
+"serviceName": "grpc-api-v2",
+"multiMode": true
+}
+},
+"tag": "proxy-20"
+},
+{
+"protocol": "vless",
+"settings": {
+"vnext": [
+{
+"address": "94.183.221.165",
+"port": 443,
+"users": [
+{
+"id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+"encryption": "none"
+}
+ ]
+}
+]
+},
+"streamSettings": {
+"network": "grpc",
+"security": "reality",
+"realitySettings": {
+"fingerprint": "firefox",
+"publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+"serverName": "www.amd.com",
+"shortId": "635a76c25a4b1820"
+},
+"grpcSettings": {
+"serviceName": "grpc-api-v2",
+"multiMode": true
+}
+},
+"tag": "proxy-21"
+},
+{
+"protocol": "freedom",
+"tag": "direct"
+},
+{
+"protocol": "blackhole",
+"tag": "block"
+}
+],
+"remarks": "🚀 🇪🇺 Авто",
+"routing": {
+"domainMatcher": "hybrid",
+"domainStrategy": "IPIfNonMatch",
+"balancers": [
+{
+"tag": "balancer",
+"selector": [
+"proxy"
+ ],
+"strategy": {
+"type": "leastPing"
+},
+"fallbackTag": "direct"
+}
+],
+"rules": [
+{
+"outboundTag": "direct",
+"protocol": [
+"bittorrent"
+ ],
+"type": "field"
+},
+{
+"type": "field",
+"balancerTag": "balancer",
+"network": "tcp,udp"
+}
+]
+},
+"burstObservatory": {
+"subjectSelector": [
+"proxy"
+ ],
+"pingConfig": {
+"connectivity": "",
+"destination": "http://www.gstatic.com/generate_204",
+"interval": "10m",
+"sampling": 2,
+"timeout": "10s"
+}
+}
+}
+
+{
+"dns": {
+"queryStrategy": "UseIPv4",
+"servers": [
+"1.1.1.1",
+"1.0.0.1"
+ ]
+},
+"inbounds": [
+{
+"listen": "127.0.0.1",
+"port": 10808,
+"protocol": "socks",
+"settings": {
+"auth": "noauth",
+"udp": true
+},
+"sniffing": {
+"destOverride": [
+"http",
+"tls",
+"quic"
+ ],
+"enabled": true,
+"routeOnly": false
+},
+"tag": "socks"
+},
+{
+"listen": "127.0.0.1",
+"port": 10809,
+"protocol": "http",
+"settings": {
+"allowTransparent": false
+},
+"sniffing": {
+"destOverride": [
+"http",
+"tls",
+"quic"
+ ],
+"enabled": true,
+"routeOnly": false
+},
+"tag": "http"
+}
+],
+"outbounds": [
+{
+"protocol": "vless",
+"settings": {
+"vnext": [
+{
+"address": "87.120.108.150",
+"port": 443,
+"users": [
+{
+"id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+"encryption": "none"
+}
+ ]
+}
+]
+},
+"streamSettings": {
+"network": "grpc",
+"security": "reality",
+"realitySettings": {
+"fingerprint": "firefox",
+"publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+"serverName": "www.amd.com",
+"shortId": "635a76c25a4b1820"
+},
+"grpcSettings": {
+"serviceName": "grpc-api-v2",
+"multiMode": true
+}
+},
+"tag": "proxy"
+},
+{
+"protocol": "freedom",
+"tag": "direct"
+},
+{
+"protocol": "blackhole",
+"tag": "block"
+}
+],
+"remarks": "🇩🇪 Германия №1",
+"routing": {
+"domainMatcher": "hybrid",
+"domainStrategy": "IPIfNonMatch",
+"rules": [
+{
+"outboundTag": "direct",
+"protocol": [
+"bittorrent"
+ ],
+"type": "field"
+}
+]
+}
+}
+
+{
+"dns": {
+"queryStrategy": "UseIPv4",
+"servers": [
+"1.1.1.1",
+"1.0.0.1"
+ ]
+},
+"inbounds": [
+{
+"listen": "127.0.0.1",
+"port": 10808,
+"protocol": "socks",
+"settings": {
+"auth": "noauth",
+"udp": true
+},
+"sniffing": {
+"destOverride": [
+"http",
+"tls",
+"quic"
+ ],
+"enabled": true,
+"routeOnly": false
+},
+"tag": "socks"
+},
+{
+"listen": "127.0.0.1",
+"port": 10809,
+"protocol": "http",
+"settings": {
+"allowTransparent": false
+},
+"sniffing": {
+"destOverride": [
+"http",
+"tls",
+"quic"
+ ],
+"enabled": true,
+"routeOnly": false
+},
+"tag": "http"
+}
+],
+"outbounds": [
+{
+"protocol": "vless",
+"settings": {
+"vnext": [
+{
+"address": "193.233.75.131",
+"port": 443,
+"users": [
+{
+"id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+"encryption": "none"
+}
+ ]
+}
+]
+},
+"streamSettings": {
+"network": "grpc",
+"security": "reality",
+"realitySettings": {
+"fingerprint": "firefox",
+"publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+"serverName": "www.amd.com",
+"shortId": "635a76c25a4b1820"
+},
+"grpcSettings": {
+"serviceName": "grpc-api-v2",
+"multiMode": true
+}
+},
+"tag": "proxy"
+},
+{
+"protocol": "freedom",
+"tag": "direct"
+},
+{
+"protocol": "blackhole",
+"tag": "block"
+}
+],
+"remarks": "🇩🇪 Германия №2",
+"routing": {
+"domainMatcher": "hybrid",
+"domainStrategy": "IPIfNonMatch",
+"rules": [
+{
+"outboundTag": "direct",
+"protocol": [
+"bittorrent"
+ ],
+"type": "field"
+}
+]
+}
+}
+
+{
+"dns": {
+"queryStrategy": "UseIPv4",
+"servers": [
+"1.1.1.1",
+"1.0.0.1"
+ ]
+},
+"inbounds": [
+{
+"listen": "127.0.0.1",
+"port": 10808,
+"protocol": "socks",
+"settings": {
+"auth": "noauth",
+"udp": true
+},
+"sniffing": {
+"destOverride": [
+"http",
+"tls",
+"quic"
+ ],
+"enabled": true,
+"routeOnly": false
+},
+"tag": "socks"
+},
+{
+"listen": "127.0.0.1",
+"port": 10809,
+"protocol": "http",
+"settings": {
+"allowTransparent": false
+},
+"sniffing": {
+"destOverride": [
+"http",
+"tls",
+"quic"
+ ],
+"enabled": true,
+"routeOnly": false
+},
+"tag": "http"
+}
+],
+"outbounds": [
+{
+"protocol": "vless",
+"settings": {
+"vnext": [
+{
+"address": "193.233.75.132",
+"port": 443,
+"users": [
+{
+"id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+"encryption": "none"
+}
+ ]
+}
+]
+},
+"streamSettings": {
+"network": "grpc",
+"security": "reality",
+"realitySettings": {
+"fingerprint": "firefox",
+"publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+"serverName": "www.amd.com",
+"shortId": "635a76c25a4b1820"
+},
+"grpcSettings": {
+"serviceName": "grpc-api-v2",
+"multiMode": true
+}
+},
+"tag": "proxy"
+},
+{
+"protocol": "freedom",
+"tag": "direct"
+},
+{
+"protocol": "blackhole",
+"tag": "block"
+}
+],
+"remarks": "🇩🇪 Германия №3",
+"routing": {
+"domainMatcher": "hybrid",
+"domainStrategy": "IPIfNonMatch",
+"rules": [
+{
+"outboundTag": "direct",
+"protocol": [
+"bittorrent"
+ ],
+"type": "field"
+}
+]
+}
+}
+
+{
+"dns": {
+"queryStrategy": "UseIPv4",
+"servers": [
+"1.1.1.1",
+"1.0.0.1"
+ ]
+},
+"inbounds": [
+{
+"listen": "127.0.0.1",
+"port": 10808,
+"protocol": "socks",
+"settings": {
+"auth": "noauth",
+"udp": true
+},
+"sniffing": {
+"destOverride": [
+"http",
+"tls",
+"quic"
+ ],
+"enabled": true,
+"routeOnly": false
+},
+"tag": "socks"
+},
+{
+"listen": "127.0.0.1",
+"port": 10809,
+"protocol": "http",
+"settings": {
+"allowTransparent": false
+},
+"sniffing": {
+"destOverride": [
+"http",
+"tls",
+"quic"
+ ],
+"enabled": true,
+"routeOnly": false
+},
+"tag": "http"
+}
+],
+"outbounds": [
+{
+"protocol": "vless",
+"settings": {
+"vnext": [
+{
+"address": "2.26.254.62",
+"port": 443,
+"users": [
+{
+"id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+"encryption": "none"
+}
+ ]
+}
+]
+},
+"streamSettings": {
+"network": "grpc",
+"security": "reality",
+"realitySettings": {
+"fingerprint": "firefox",
+"publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+"serverName": "www.amd.com",
+"shortId": "635a76c25a4b1820"
+},
+"grpcSettings": {
+"serviceName": "grpc-api-v2",
+"multiMode": true
+}
+},
+"tag": "proxy"
+},
+{
+"protocol": "freedom",
+"tag": "direct"
+},
+{
+"protocol": "blackhole",
+"tag": "block"
+}
+],
+"remarks": "🇳🇱 Нидерланды №1",
+"routing": {
+"domainMatcher": "hybrid",
+"domainStrategy": "IPIfNonMatch",
+"rules": [
+{
+"outboundTag": "direct",
+"protocol": [
+"bittorrent"
+ ],
+"type": "field"
+}
+]
+}
+}
+
+{
+"dns": {
+"queryStrategy": "UseIPv4",
+"servers": [
+"1.1.1.1",
+"1.0.0.1"
+ ]
+},
+"inbounds": [
+{
+"listen": "127.0.0.1",
+"port": 10808,
+"protocol": "socks",
+"settings": {
+"auth": "noauth",
+"udp": true
+},
+"sniffing": {
+"destOverride": [
+"http",
+"tls",
+"quic"
+ ],
+"enabled": true,
+"routeOnly": false
+},
+"tag": "socks"
+},
+{
+"listen": "127.0.0.1",
+"port": 10809,
+"protocol": "http",
+"settings": {
+"allowTransparent": false
+},
+"sniffing": {
+"destOverride": [
+"http",
+"tls",
+"quic"
+ ],
+"enabled": true,
+"routeOnly": false
+},
+"tag": "http"
+}
+],
+"outbounds": [
+{
+"protocol": "vless",
+"settings": {
+"vnext": [
+{
+"address": "94.183.221.175",
+"port": 443,
+"users": [
+{
+"id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+"encryption": "none"
+}
+ ]
+}
+]
+},
+"streamSettings": {
+"network": "grpc",
+"security": "reality",
+"realitySettings": {
+"fingerprint": "firefox",
+"publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+"serverName": "www.amd.com",
+"shortId": "635a76c25a4b1820"
+},
+"grpcSettings": {
+"serviceName": "grpc-api-v2",
+"multiMode": true
+}
+},
+"tag": "proxy"
+},
+{
+"protocol": "freedom",
+"tag": "direct"
+},
+{
+"protocol": "blackhole",
+"tag": "block"
+}
+],
+"remarks": "🇳🇱 Нидерланды №2",
+"routing": {
+"domainMatcher": "hybrid",
+"domainStrategy": "IPIfNonMatch",
+"rules": [
+{
+"outboundTag": "direct",
+"protocol": [
+"bittorrent"
+ ],
+"type": "field"
+}
+]
+}
+}
+
+{
+"dns": {
+"queryStrategy": "UseIPv4",
+"servers": [
+"1.1.1.1",
+"1.0.0.1"
+ ]
+},
+"inbounds": [
+{
+"listen": "127.0.0.1",
+"port": 10808,
+"protocol": "socks",
+"settings": {
+"auth": "noauth",
+"udp": true
+},
+"sniffing": {
+"destOverride": [
+"http",
+"tls",
+"quic"
+ ],
+"enabled": true,
+"routeOnly": false
+},
+"tag": "socks"
+},
+{
+"listen": "127.0.0.1",
+"port": 10809,
+"protocol": "http",
+"settings": {
+"allowTransparent": false
+},
+"sniffing": {
+"destOverride": [
+"http",
+"tls",
+"quic"
+ ],
+"enabled": true,
+"routeOnly": false
+},
+"tag": "http"
+}
+],
+"outbounds": [
+{
+"protocol": "vless",
+"settings": {
+"vnext": [
+{
+"address": "2.26.224.98",
+"port": 443,
+"users": [
+{
+"id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+"encryption": "none"
+}
+ ]
+}
+]
+},
+"streamSettings": {
+"network": "grpc",
+"security": "reality",
+"realitySettings": {
+"fingerprint": "firefox",
+"publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+"serverName": "www.amd.com",
+"shortId": "635a76c25a4b1820"
+},
+"grpcSettings": {
+"serviceName": "grpc-api-v2",
+"multiMode": true
+}
+},
+"tag": "proxy"
+},
+{
+"protocol": "freedom",
+"tag": "direct"
+},
+{
+"protocol": "blackhole",
+"tag": "block"
+}
+],
+"remarks": "🇵🇱 Польша №1",
+"routing": {
+"domainMatcher": "hybrid",
+"domainStrategy": "IPIfNonMatch",
+"rules": [
+{
+"outboundTag": "direct",
+"protocol": [
+"bittorrent"
+ ],
+"type": "field"
+}
+]
+}
+}
+
+{
+"dns": {
+"queryStrategy": "UseIPv4",
+"servers": [
+"1.1.1.1",
+"1.0.0.1"
+ ]
+},
+"inbounds": [
+{
+"listen": "127.0.0.1",
+"port": 10808,
+"protocol": "socks",
+"settings": {
+"auth": "noauth",
+"udp": true
+},
+"sniffing": {
+"destOverride": [
+"http",
+"tls",
+"quic"
+ ],
+"enabled": true,
+"routeOnly": false
+},
+"tag": "socks"
+},
+{
+"listen": "127.0.0.1",
+"port": 10809,
+"protocol": "http",
+"settings": {
+"allowTransparent": false
+},
+"sniffing": {
+"destOverride": [
+"http",
+"tls",
+"quic"
+ ],
+"enabled": true,
+"routeOnly": false
+},
+"tag": "http"
+}
+],
+"outbounds": [
+{
+"protocol": "vless",
+"settings": {
+"vnext": [
+{
+"address": "94.183.209.90",
+"port": 443,
+"users": [
+{
+"id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+"encryption": "none"
+}
+ ]
+}
+]
+},
+"streamSettings": {
+"network": "grpc",
+"security": "reality",
+"realitySettings": {
+"fingerprint": "firefox",
+"publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+"serverName": "www.amd.com",
+"shortId": "635a76c25a4b1820"
+},
+"grpcSettings": {
+"serviceName": "grpc-api-v2",
+"multiMode": true
+}
+},
+"tag": "proxy"
+},
+{
+"protocol": "freedom",
+"tag": "direct"
+},
+{
+"protocol": "blackhole",
+"tag": "block"
+}
+],
+"remarks": "🎮 Польша",
+"routing": {
+"domainMatcher": "hybrid",
+"domainStrategy": "IPIfNonMatch",
+"rules": [
+{
+"outboundTag": "direct",
+"protocol": [
+"bittorrent"
+ ],
+"type": "field"
+}
+]
+}
+}
+
+{
+"dns": {
+"queryStrategy": "UseIPv4",
+"servers": [
+"1.1.1.1",
+"1.0.0.1"
+ ]
+},
+"inbounds": [
+{
+"listen": "127.0.0.1",
+"port": 10808,
+"protocol": "socks",
+"settings": {
+"auth": "noauth",
+"udp": true
+},
+"sniffing": {
+"destOverride": [
+"http",
+"tls",
+"quic"
+ ],
+"enabled": true,
+"routeOnly": false
+},
+"tag": "socks"
+},
+{
+"listen": "127.0.0.1",
+"port": 10809,
+"protocol": "http",
+"settings": {
+"allowTransparent": false
+},
+"sniffing": {
+"destOverride": [
+"http",
+"tls",
+"quic"
+ ],
+"enabled": true,
+"routeOnly": false
+},
+"tag": "http"
+}
+],
+"outbounds": [
+{
+"protocol": "vless",
+"settings": {
+"vnext": [
+{
+"address": "45.128.235.44",
+"port": 443,
+"users": [
+{
+"id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+"encryption": "none"
+}
+ ]
+}
+]
+},
+"streamSettings": {
+"network": "grpc",
+"security": "reality",
+"realitySettings": {
+"fingerprint": "firefox",
+"publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+"serverName": "www.amd.com",
+"shortId": "635a76c25a4b1820"
+},
+"grpcSettings": {
+"serviceName": "grpc-api-v2",
+"multiMode": true
+}
+},
+"tag": "proxy"
+},
+{
+"protocol": "freedom",
+"tag": "direct"
+},
+{
+"protocol": "blackhole",
+"tag": "block"
+}
+],
+"remarks": "🇫🇮 Финляндия №1",
+"routing": {
+"domainMatcher": "hybrid",
+"domainStrategy": "IPIfNonMatch",
+"rules": [
+{
+"outboundTag": "direct",
+"protocol": [
+"bittorrent"
+ ],
+"type": "field"
+}
+]
+}
+}
+
+{
+"dns": {
+"queryStrategy": "UseIPv4",
+"servers": [
+"1.1.1.1",
+"1.0.0.1"
+ ]
+},
+"inbounds": [
+{
+"listen": "127.0.0.1",
+"port": 10808,
+"protocol": "socks",
+"settings": {
+"auth": "noauth",
+"udp": true
+},
+"sniffing": {
+"destOverride": [
+"http",
+"tls",
+"quic"
+ ],
+"enabled": true,
+"routeOnly": false
+},
+"tag": "socks"
+},
+{
+"listen": "127.0.0.1",
+"port": 10809,
+"protocol": "http",
+"settings": {
+"allowTransparent": false
+},
+"sniffing": {
+"destOverride": [
+"http",
+"tls",
+"quic"
+ ],
+"enabled": true,
+"routeOnly": false
+},
+"tag": "http"
+}
+],
+"outbounds": [
+{
+"protocol": "vless",
+"settings": {
+"vnext": [
+{
+"address": "150.241.83.126",
+"port": 443,
+"users": [
+{
+"id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+"encryption": "none"
+}
+ ]
+}
+]
+},
+"streamSettings": {
+"network": "grpc",
+"security": "reality",
+"realitySettings": {
+"fingerprint": "firefox",
+"publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+"serverName": "www.amd.com",
+"shortId": "635a76c25a4b1820"
+},
+"grpcSettings": {
+"serviceName": "grpc-api-v2",
+"multiMode": true
+}
+},
+"tag": "proxy"
+},
+{
+"protocol": "freedom",
+"tag": "direct"
+},
+{
+"protocol": "blackhole",
+"tag": "block"
+}
+],
+"remarks": "🇺🇸 США №1",
+"routing": {
+"domainMatcher": "hybrid",
+"domainStrategy": "IPIfNonMatch",
+"rules": [
+{
+"outboundTag": "direct",
+"protocol": [
+"bittorrent"
+ ],
+"type": "field"
+}
+]
+}
+}
+
+{
+"dns": {
+"queryStrategy": "UseIPv4",
+"servers": [
+"1.1.1.1",
+"1.0.0.1"
+ ]
+},
+"inbounds": [
+{
+"listen": "127.0.0.1",
+"port": 10808,
+"protocol": "socks",
+"settings": {
+"auth": "noauth",
+"udp": true
+},
+"sniffing": {
+"destOverride": [
+"http",
+"tls",
+"quic"
+ ],
+"enabled": true,
+"routeOnly": false
+},
+"tag": "socks"
+},
+{
+"listen": "127.0.0.1",
+"port": 10809,
+"protocol": "http",
+"settings": {
+"allowTransparent": false
+},
+"sniffing": {
+"destOverride": [
+"http",
+"tls",
+"quic"
+ ],
+"enabled": true,
+"routeOnly": false
+},
+"tag": "http"
+}
+],
+"outbounds": [
+{
+"protocol": "vless",
+"settings": {
+"vnext": [
+{
+"address": "31.76.55.163",
+"port": 443,
+"users": [
+{
+"id": "7e53f813-67ef-411f-82c3-ef3d67ba92b9",
+"encryption": "none"
+}
+ ]
+}
+]
+},
+"streamSettings": {
+"network": "grpc",
+"security": "reality",
+"realitySettings": {
+"fingerprint": "firefox",
+"publicKey": "jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ",
+"serverName": "www.amd.com",
+"shortId": "635a76c25a4b1820"
+},
+"grpcSettings": {
+"serviceName": "grpc-api-v2",
+"multiMode": true
+}
+},
+"tag": "proxy"
+},
+{
+"protocol": "freedom",
+"tag": "direct"
+},
+{
+"protocol": "blackhole",
+"tag": "block"
+}
+],
+"remarks": "🇪🇪 Эстония №1",
+"routing": {
+"domainMatcher": "hybrid",
+"domainStrategy": "IPIfNonMatch",
+"rules": [
+{
+"outboundTag": "direct",
+"protocol": [
+"bittorrent"
+ ],
+"type": "field"
+}
+]
+}
+}
+
+{
+"burstObservatory": {
+"pingConfig": {
+"connectivity": "",
+"destination": "http://www.gstatic.com/generate_204",
+"interval": "10m",
+"sampling": 2,
+"timeout": "10s"
+},
+"subjectSelector": [
+"proxy"
+ ]
+},
+"dns": {
+"queryStrategy": "UseIPv4",
+"servers": [
+"1.1.1.1",
+"https://dns.adguard.com/dns-query"
+ ]
+},
+"inbounds": [
+{
+"listen": "127.0.0.1",
+"port": 10808,
+"protocol": "socks",
+"settings": {
+"auth": "noauth",
+"udp": true
+},
+"sniffing": {
+"destOverride": [
+"http",
+"tls",
+"quic"
+ ],
+"enabled": true,
+"routeOnly": false
+},
+"tag": "socks"
+},
+{
+"listen": "127.0.0.1",
+"port": 10809,
+"protocol": "http",
+"settings": {
+"allowTransparent": false
+},
+"sniffing": {
+"destOverride": [
+"http",
+"tls",
+"quic"
+ ],
+"enabled": true,
+"routeOnly": false
+},
+"tag": "http"
+}
+],
+"log": {
+"dnsLog": true,
+"loglevel": "none"
+},
+"routing": {
+"balancers": [
+{
+"fallbackTag": "direct",
+"selector": [
+"proxy"
+ ],
+"strategy": {
+"type": "leastPing"
+},
+"tag": "Balancer"
+}
+],
+"domainMatcher": "hybrid",
+"domainStrategy": "IPIfNonMatch",
+"rules": [
+{
+"outboundTag": "direct",
+"protocol": [
+"bittorrent"
+ ],
+"type": "field"
+},
+{
+"balancerTag": "Balancer",
+"network": "tcp,udp",
+"type": "field"
+}
+]
+},
+"outbounds": [
+{
+"protocol": "vless",
+"settings": {
+"vnext": [
+{
+"address": "yandex-cdn3.vpnbypass.click",
+"port": 443,
+"users": [
+{
+"encryption": "none",
+"id": "f47b3c2e-8a91-4d5e-b6f0-9c1d2e3a4b5c"
+}
+ ]
+}
+]
+},
+"streamSettings": {
+"network": "xhttp",
+"security": "tls",
+"tlsSettings": {
+"fingerprint": "ios",
+"serverName": "yandex-cdn3.vpnbypass.click",
+"alpn": [
+"h2",
+"http/1.1"
+ ]
+},
+"xhttpSettings": {
+"host": "yandex-cdn3.vpnbypass.click",
+"mode": "packet-up",
+"path": "/ru",
+"extra": {
+"noGRPCHeader": true,
+"noSSEHeader": true,
+"scMaxBufferedPosts": 100,
+"scMaxEachPostBytes": 2000000,
+"scMinPostsIntervalMs": "1-1",
+"seqKey": "offset",
+"seqPlacement": "query",
+"sessionKey": "auth",
+"sessionPlacement": "query",
+"uplinkDataPlacement": "body",
+"uplinkHTTPMethod": "GET",
+"xPaddingBytes": "50-150",
+"xPaddingHeader": "X-Api-Key",
+"xPaddingMethod": "tokenish",
+"xPaddingObfsMode": true,
+"xPaddingPlacement": "header"
+}
+}
+},
+"tag": "proxy"
+},
+{
+"protocol": "freedom",
+"tag": "direct"
+},
+{
+"protocol": "blackhole",
+"tag": "block"
+}
+],
+"remarks": "🇷🇺 Белые списки Россия №1"
+}
+
+{
+"burstObservatory": {
+"pingConfig": {
+"connectivity": "",
+"destination": "http://www.gstatic.com/generate_204",
+"interval": "10m",
+"sampling": 2,
+"timeout": "10s"
+},
+"subjectSelector": [
+"proxy"
+ ]
+},
+"dns": {
+"queryStrategy": "UseIPv4",
+"servers": [
+"1.1.1.1",
+"https://dns.adguard.com/dns-query"
+ ]
+},
+"inbounds": [
+{
+"listen": "127.0.0.1",
+"port": 10808,
+"protocol": "socks",
+"settings": {
+"auth": "noauth",
+"udp": true
+},
+"sniffing": {
+"destOverride": [
+"http",
+"tls",
+"quic"
+ ],
+"enabled": true,
+"routeOnly": false
+},
+"tag": "socks"
+},
+{
+"listen": "127.0.0.1",
+"port": 10809,
+"protocol": "http",
+"settings": {
+"allowTransparent": false
+},
+"sniffing": {
+"destOverride": [
+"http",
+"tls",
+"quic"
+ ],
+"enabled": true,
+"routeOnly": false
+},
+"tag": "http"
+}
+],
+"log": {
+"dnsLog": true,
+"loglevel": "none"
+},
+"routing": {
+"balancers": [
+{
+"fallbackTag": "direct",
+"selector": [
+"proxy"
+ ],
+"strategy": {
+"type": "leastPing"
+},
+"tag": "Balancer"
+}
+],
+"domainMatcher": "hybrid",
+"domainStrategy": "IPIfNonMatch",
+"rules": [
+{
+"outboundTag": "direct",
+"protocol": [
+"bittorrent"
+ ],
+"type": "field"
+},
+{
+"balancerTag": "Balancer",
+"network": "tcp,udp",
+"type": "field"
+}
+]
+},
+"outbounds": [
+{
+"protocol": "vless",
+"settings": {
+"vnext": [
+{
+"address": "cdn4.anytube.ru",
+"port": 443,
+"users": [
+{
+"encryption": "none",
+"id": "3346b3dd-fd39-4967-8c6f-a2c472bcd7c1"
+}
+ ]
+}
+]
+},
+"streamSettings": {
+"network": "xhttp",
+"security": "reality",
+"realitySettings": {
+"fingerprint": "random",
+"publicKey": "CKHctUl1jF8mhECb57gzQXtTU4aOcWMCjb5-H5ctJQo",
+"serverName": "cdn4.anytube.ru",
+"shortId": "fb79f174cdcbe90c",
+"show": false
+},
+"xhttpSettings": {
+"host": "",
+"mode": "auto",
+"path": "/"
+}
+},
+"tag": "proxy"
+},
+{
+"protocol": "freedom",
+"tag": "direct"
+},
+{
+"protocol": "blackhole",
+"tag": "block"
+}
+],
+"remarks": "🇷🇺 Белые списки Россия №2"
+}
+
+{
+"remarks": "🇩🇪 Белые списки Германия №1",
+"dns": {
+"queryStrategy": "UseIPv4",
+"servers": [
+"1.1.1.1",
+"https://dns.adguard.com/dns-query"
+ ]
+},
+"inbounds": [
+{
+"listen": "127.0.0.1",
+"port": 10808,
+"protocol": "socks",
+"settings": {
+"auth": "noauth",
+"udp": true
+},
+"sniffing": {
+"destOverride": [
+"http",
+"tls",
+"quic"
+ ],
+"enabled": true,
+"routeOnly": false
+},
+"tag": "socks"
+},
+{
+"listen": "127.0.0.1",
+"port": 10809,
+"protocol": "http",
+"settings": {
+"allowTransparent": false
+},
+"sniffing": {
+"destOverride": [
+"http",
+"tls",
+"quic"
+ ],
+"enabled": true,
+"routeOnly": false
+},
+"tag": "http"
+}
+],
+"log": {
+"dnsLog": true,
+"loglevel": "warning"
+},
+"outbounds": [
+{
+"protocol": "vless",
+"settings": {
+"vnext": [
+{
+"address": "cdn3.vpnbypass.click",
+"port": 443,
+"users": [
+{
+"id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+"encryption": "none"
+}
+ ]
+}
+]
+},
+"streamSettings": {
+"network": "ws",
+"security": "tls",
+"tlsSettings": {
+"serverName": "",
+"fingerprint": ""
+},
+"wsSettings": {
+"path": "/vless-ws",
+"headers": {}
+}
+},
+"tag": "proxy"
+},
+{
+"protocol": "freedom",
+"tag": "direct"
+},
+{
+"protocol": "blackhole",
+"tag": "block"
+}
+],
+"burstObservatory": {
+"pingConfig": {
+"connectivity": "",
+"destination": "http://www.gstatic.com/generate_204",
+"interval": "10m",
+"sampling": 2,
+"timeout": "10s"
+},
+"subjectSelector": [
+"proxy"
+ ]
+},
+"routing": {
+"domainMatcher": "hybrid",
+"domainStrategy": "IPIfNonMatch",
+"balancers": [
+{
+"fallbackTag": "direct",
+"selector": [
+"proxy"
+ ],
+"strategy": {
+"type": "leastPing"
+},
+"tag": "Balancer"
+}
+],
+"rules": [
+{
+"outboundTag": "direct",
+"protocol": [
+"bittorrent"
+ ],
+"type": "field"
+},
+{
+"type": "field",
+"outboundTag": "direct",
+"domain": [
+"domain:ru",
+"keyword:sber",
+"keyword:yandex",
+"domain:ya.ru",
+"domain:vk.com",
+"domain:vk.me",
+"domain:mail.ru",
+"keyword:gosuslugi",
+"keyword:nalog",
+"domain:mos.ru",
+"keyword:tinkoff",
+"keyword:alfabank",
+"keyword:vtb",
+"keyword:gazprombank",
+"domain:raiffeisen.ru",
+"domain:ozon.ru",
+"domain:wildberries.ru",
+"domain:avito.ru"
+ ]
+},
+{
+"balancerTag": "Balancer",
+"network": "tcp,udp",
+"type": "field"
+}
+]
+}
+}
