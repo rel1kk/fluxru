@@ -1,3 +1,9 @@
+#profile-title: FluxNet
+#announce: Если вы в Happ и все в н/д то делайте так: настройки - пинг - tcp и всё!
+#profile-update-interval: 6
+#support-url: https://t.me/fluxnett_bot
+#profile-web-page-url: https://t.me/fluxnettg
+
 {
 "dns": {
 "queryStrategy": "UseIPv4",
